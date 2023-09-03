@@ -1,0 +1,56 @@
+:root {
+  --text: #130d06;
+  --background: #f3eee9;
+  --primary: #f4b371;
+  --secondary: #e8cfb5;
+  --accent: #d97512;
+}
+
+.event-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--background);
+
+  .event-content {
+    width: 80%;
+
+    padding: 3rem;
+    margin: 0 auto;
+
+    h1 {
+      text-align: center;
+      font-size: 2rem;
+      font-weight: 700;
+    }
+
+    P {
+      margin-top: 3rem;
+      font-size: 1rem;
+    }
+  }
+
+  .galley {
+    margin: 0 auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+
+  .btn {
+    margin-top: 10rem;
+    position: absolute;
+    left: 45%;
+    border: 2px solid var(--accent);
+    color: var(--primary);
+    font-size: 20px;
+    transition: 0.3s;
+    width: fit-content;
+
+    &:hover {
+      background: var(--primary);
+      color: var(--text);
+    }
+  }
+}
