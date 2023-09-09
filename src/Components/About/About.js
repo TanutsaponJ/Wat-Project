@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 
-import aboutImage1 from "../../assets/about1.png";
+import photo1 from "../../assets/about1.png";
 
 function About() {
   return (
@@ -9,7 +9,7 @@ function About() {
       <h1 className="about-title">ประวัติความเป็นมา</h1>
       <div className="content-container">
         <div className="img-content">
-          <img src={aboutImage1} alt="about-picture" />
+          <img src={photo1} alt="photo1" />
         </div>
 
         <div className="content">

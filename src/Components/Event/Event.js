@@ -41,8 +41,8 @@ function Event() {
         <img src={Img4} alt="pic-4" />
         <img src={Img5} alt="pic-5" />
         <img src={Img6} alt="pic-6" />
+        <button className="btn">ติดต่อสอบถาม</button>
       </div>
-      <button className="btn">ติดต่อสอบถาม</button>
     </section>
   );
 }

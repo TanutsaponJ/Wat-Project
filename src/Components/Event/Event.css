@@ -7,10 +7,10 @@
 }
 
 .event-container {
-  position: relative;
   width: 100vw;
   height: 100vh;
   background-color: var(--background);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
 .event-container .event-content {
   width: 80%;
@@ -33,19 +33,17 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
 }
-.event-container .btn {
-  margin-top: 10rem;
-  position: absolute;
-  left: 45%;
+.event-container .galley .btn {
+  margin-top: 3rem;
   border: 2px solid var(--accent);
   color: var(--primary);
-  font-size: 20px;
+  font-size: 15px;
   transition: 0.3s;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
 }
-.event-container .btn:hover {
+.event-container .galley .btn:hover {
   background: var(--primary);
   color: var(--text);
 }/*# sourceMappingURL=Event.css.map */

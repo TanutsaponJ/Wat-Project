@@ -7,10 +7,10 @@
 }
 
 .event-container {
-  position: relative;
   width: 100vw;
   height: 100vh;
   background-color: var(--background);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 
   .event-content {
     width: 80%;
@@ -36,21 +36,20 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
-  }
 
-  .btn {
-    margin-top: 10rem;
-    position: absolute;
-    left: 45%;
-    border: 2px solid var(--accent);
-    color: var(--primary);
-    font-size: 20px;
-    transition: 0.3s;
-    width: fit-content;
+    .btn {
+      margin-top: 3rem;
 
-    &:hover {
-      background: var(--primary);
-      color: var(--text);
+      border: 2px solid var(--accent);
+      color: var(--primary);
+      font-size: 15px;
+      transition: 0.3s;
+      width: fit-content;
+
+      &:hover {
+        background: var(--primary);
+        color: var(--text);
+      }
     }
   }
 }
