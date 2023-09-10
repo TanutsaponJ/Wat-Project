@@ -2,8 +2,8 @@ import React from "react";
 import "./Blog.css";
 
 import blog1 from "../../assets/blog1.png";
-import blog3 from "../../assets/blog3.png";
 import blog2 from "../../assets/blog4.png";
+import blog3 from "../../assets/blog3.png";
 
 function Blog() {
   return (
