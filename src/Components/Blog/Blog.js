@@ -14,7 +14,7 @@ function Blog() {
       </div>
 
       <div className="blog-container">
-        <div className="blog-box">
+        <div className="blog-box" style={{ float: "left" }}>
           <div className="blog-img">
             <img src={blog1} alt="blog" />
           </div>
@@ -66,7 +66,7 @@ function Blog() {
           </div>
         </div>
 
-        <div className="blog-box">
+        <div className="blog-box" style={{ float: "right" }}>
           <div className="blog-img">
             <img src={blog3} alt="blog" />
           </div>

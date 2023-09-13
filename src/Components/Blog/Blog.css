@@ -38,7 +38,7 @@
   flex-wrap: wrap;
 }
 .blog-section .blog-container .blog-box {
-  width: 450px;
+  width: 29%;
   /* height: 600px; */
   background-color: var(--secondary);
   border: 1px solid #ececec;
