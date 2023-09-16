@@ -8,7 +8,7 @@
 
 .event-container {
   width: 100vw;
-  /* height: 100vh; */
+  height: 100vh;
   background-color: var(--background);
   border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
@@ -42,9 +42,8 @@
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  margin-bottom: 3rem;
 }
 .event-container .galley .btn:hover {
   background: var(--primary);
   color: var(--text);
-} /*# sourceMappingURL=Event.css.map */
+}/*# sourceMappingURL=Event.css.map */

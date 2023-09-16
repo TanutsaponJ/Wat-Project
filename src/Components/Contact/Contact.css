@@ -10,7 +10,7 @@
   width: 100%;
 }
 .discount .secContainer {
-  /* height: 400px; */
+  height: 400px;
   width: 100%;
   position: relative;
   display: flex;
@@ -21,7 +21,7 @@
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 .discount .secContainer .textDiv {
   position: absolute;
@@ -99,4 +99,4 @@
   .discount .secContainer .textDiv .title {
     font-size: 30px;
   }
-} /*# sourceMappingURL=Contact.css.map */
+}/*# sourceMappingURL=Contact.css.map */
